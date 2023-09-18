@@ -1,0 +1,275 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/image-12.png
+    - assets/page-1/images/line.png
+    - assets/page-1/images/images-10.png
+    - assets/page-1/images/images-10-qrH.png
+    - assets/page-1/images/images-9.png
+    - assets/page-1/images/images-8.png
+    - assets/page-1/images/free-icon-font-user-3917546-4-LuX.png
+    - assets/page-1/images/images-10-bqK.png
+    - assets/page-1/images/icon.png
+    - assets/page-1/images/group-1.png
+    - assets/page-1/images/free-icon-font-user-3917546-4.png
+    - assets/page-1/images/free-icon-font-user-3917546-2.png
+    - assets/page-1/images/free-icon-font-user-3917546-3.png
+    - assets/page-1/images/space.png
+    - assets/page-1/images/free-icon-font-user-3917546-2-yaR.png
+    - assets/page-1/images/auto-group-hu8v.png
+    - assets/page-1/images/location.png
+    - assets/page-1/images/account.png
+    - assets/page-1/images/group-2.png
+    - assets/page-1/images/auto-group-k5ez.png
+    - assets/page-1/images/button.png
+    - assets/page-1/images/image-11.png
+    - assets/page-1/images/line-BMb.png
+    - assets/page-1/images/ellipse-5.png
+    - assets/page-1/images/image-10-gB3.png
+    - assets/page-1/images/image-24.png
+    - assets/page-1/images/location-uCV.png
+    - assets/page-1/images/image-14.png
+    - assets/page-1/images/image-10-gfj.png
+    - assets/page-1/images/home.png
+    - assets/page-1/images/image-11-eVP.png
+    - assets/page-1/images/image-12-9Kf.png
+    - assets/page-1/images/image-10-71b.png
+    - assets/page-1/images/home-JVP.png
+    - assets/page-1/images/image-10-wCm.png
+    - assets/page-1/images/free-icon-font-user-3917546-4-Fgd.png
+    - assets/page-1/images/ellipse-6.png
+    - assets/page-1/images/icon-9c5.png
+    - assets/page-1/images/image-10-aEu.png
+    - assets/page-1/images/account-QmX.png
+    - assets/page-1/images/image-14-kqP.png
+    - assets/page-1/images/image-10-7vq.png
+    - assets/page-1/images/image-10-VHB.png
+    - assets/page-1/images/group-1-FXF.png
+    - assets/page-1/images/image-14-nXB.png
+    - assets/page-1/images/home-TFX.png
+    - assets/page-1/images/home-oqB.png
+    - assets/page-1/images/backspace.png
+    - assets/page-1/images/location-FeR.png
+    - assets/page-1/images/ellipse-7.png
+    - assets/page-1/images/free-icon-font-sign-out-alt-1.png
+    - assets/page-1/images/free-icon-font-home-3917033-4.png
+    - assets/page-1/images/free-icon-font-sign-out-alt-1-rZ7.png
+    - assets/page-1/images/free-icon-font-sign-out-alt-1-HPX.png
+    - assets/page-1/images/free-icon-font-sign-out-alt-1-qA9.png
+    - assets/page-1/images/free-icon-font-home-3917033-4-z33.png
+    - assets/page-1/images/free-icon-font-home-3917033-3.png
+    - assets/page-1/images/free-icon-font-home-3917033-2.png
+    - assets/page-1/images/home-9KF.png
+    - assets/page-1/images/image-14-4FB.png
+    - assets/page-1/images/image-14-Dds.png
+    - assets/page-1/images/free-icon-font-home-3917033-2-nBB.png
+    - assets/page-1/images/return.png
+    - assets/page-1/images/home-6bj.png
+    - assets/page-1/images/home-FzR.png
+    - assets/page-1/images/group-3.png
+    - assets/page-1/images/group-2-oFF.png
+    - assets/page-1/images/home-Fd3.png
+    - assets/page-1/images/home-DZs.png
+    - assets/page-1/images/frame-1.png
+    - assets/page-1/images/account-5Vb.png
+    - assets/page-1/images/group-2-e2u.png
+    - assets/page-1/images/home-18M.png
+    - assets/page-1/images/image-10.png
+    - assets/page-1/images/image-11-H3F.png
+    - assets/page-1/images/image-10-xJm.png
+    - assets/page-1/images/ellipse-5-k1f.png
+    - assets/page-1/images/ellipse-6-zwb.png
+    - assets/page-1/images/account-XAq.png
+    - assets/page-1/images/account-ryo.png
+    - assets/page-1/images/free-icon-font-home-3917033-4-PD3.png
+    - assets/page-1/images/rectangle-14.png
+    - assets/page-1/images/free-icon-font-user-3917546-4-PUD.png
+    - assets/page-1/images/border.png
+    - assets/page-1/images/account-cwB.png
+    - assets/page-1/images/border-Rwo.png
+    - assets/page-1/images/image-10-C2m.png
+    - assets/page-1/images/ellipse-5-v3j.png
+    - assets/page-1/images/ellipse-6-XJR.png
+    - assets/page-1/images/border-Ec9.png
+    - assets/page-1/images/bg.png
+    - assets/page-1/images/ellipse-7-WcR.png
+    - assets/page-1/images/location-v57.png
+    - assets/page-1/images/account-sdb.png
+    - assets/page-1/images/free-icon-font-home-3917033-4-DhT.png
+    - assets/page-1/images/group-2-U8R.png
+    - assets/page-1/images/ellipse-7-J4Z.png
+    - assets/page-1/images/home-Z8u.png
+    - assets/page-1/images/group-2-vRw.png
+    - assets/page-1/images/group-1-R4V.png
+    - assets/page-1/images/location-ErV.png
+    - assets/page-1/images/image-11-afT.png
+    - assets/page-1/images/image-10-x7b.png
+    - assets/page-1/images/location-QNu.png
+    - assets/page-1/images/free-icon-font-user-3917546-2-Vw7.png
+    - assets/page-1/images/account-grM.png
+    - assets/page-1/images/home-Vvq.png
+    - assets/page-1/images/location-Vny.png
+    - assets/page-1/images/account-1QV.png
+    - assets/page-1/images/location-uyK.png
+    - assets/page-1/images/location-e3j.png
+    - assets/page-1/images/account-ENV.png
+    - assets/page-1/images/images-10-aSm.png
+    - assets/page-1/images/image-13.png
+    - assets/page-1/images/group-2-bRs.png
+    - assets/page-1/images/free-icon-font-home-3917033-2-cFj.png
+    - assets/page-1/images/account-41o.png
+    - assets/page-1/images/arrow-down.png
+    - assets/page-1/images/location-8Ed.png
+    - assets/page-1/images/location-q6Z.png
+    - assets/page-1/images/group-2-VYV.png
+    - assets/page-1/images/home-Fus.png
+    - assets/page-1/images/location-tKT.png
+    - assets/page-1/images/location-CKK.png
+    - assets/page-1/images/images-8-w9B.png
+    - assets/page-1/images/border-B1K.png
+    - assets/page-1/images/home-uHK.png
+    - assets/page-1/images/group-2-rpZ.png
+    - assets/page-1/images/account-Rof.png
+    - assets/page-1/images/home-3kd.png
+    - assets/page-1/images/image-36.png
+    - assets/page-1/images/group-1-SZF.png
+    - assets/page-1/images/image-14-LLh.png
+    - assets/page-1/images/location-wqB.png
+    - assets/page-1/images/image-10-FXf.png
+    - assets/page-1/images/image-14-Z7w.png
+    - assets/page-1/images/image-10-dc5.png
+    - assets/page-1/images/account-JWD.png
+    - assets/page-1/images/home-cXT.png
+    - assets/page-1/images/location-P77.png
+    - assets/page-1/images/image-bg.png
+    - assets/page-1/images/group-1-PWh.png
+    - assets/page-1/images/pie-chart.png
+    - assets/page-1/images/image-bg-Yau.png
+    - assets/page-1/images/image-10-c7T.png
+    - assets/page-1/images/location-eYy.png
+    - assets/page-1/images/chevron-left.png
+    - assets/page-1/images/image-bg-Qch.png
+    - assets/page-1/images/group-1-5nh.png
+    - assets/page-1/images/image-bg-sry.png
+    - assets/page-1/images/image-14-RzH.png
+    - assets/page-1/images/image-bg-JsK.png
+    - assets/page-1/images/image-bg-Ybj.png
+    - assets/page-1/images/image-bg-eHf.png
+    - assets/page-1/images/link.png
+    - assets/page-1/images/image-bg-dTw.png
+    - assets/page-1/images/image-bg-Vvh.png
+    - assets/page-1/images/home-fry.png
+    - assets/page-1/images/image-bg-ERX.png
+    - assets/page-1/images/image-bg-oSR.png
+    - assets/page-1/images/image-bg-exh.png
+    - assets/page-1/images/account-XHs.png
+    - assets/page-1/images/image-bg-2X3.png
+    - assets/page-1/images/image-bg-2BT.png
+    - assets/page-1/images/image-bg-JGh.png
+    - assets/page-1/images/image-bg-7MB.png
+    - assets/page-1/images/image-bg-jCm.png
+    - assets/page-1/images/location-gqX.png
+    - assets/page-1/images/image-13-bDT.png
+    - assets/page-1/images/actions.png
+    - assets/page-1/images/image-33.png
+    - assets/page-1/images/link-y85.png
+    - assets/page-1/images/image-35.png
+    - assets/page-1/images/image-bg-t89.png
+    - assets/page-1/images/image-32.png
+    - assets/page-1/images/image-30.png
+    - assets/page-1/images/image-34.png
+    - assets/page-1/images/image-31.png
+    - assets/page-1/images/nav-icon.png
+    - assets/page-1/images/image-29.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
